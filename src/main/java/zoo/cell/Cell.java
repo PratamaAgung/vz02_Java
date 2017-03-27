@@ -9,10 +9,10 @@ public class Cell{
 	private Animal animal;
 	private Cage cage;
 	private String facility;
-	public String habitat;
-	public final char type;
-	public final int absis;
-	public final int ordinat;
+	private String habitat;
+	private final char type;
+	private final int absis;
+	private final int ordinat;
 	
 	/**
 	 * Constructor
@@ -27,7 +27,7 @@ public class Cell{
 	}
 	
 	/**
-	 * Getter untuk data atribut type
+	 * Getter untuk data atribut type 
 	 * @return type dari cell
 	 */
 	public char getType() {
@@ -35,7 +35,7 @@ public class Cell{
 	}
 
 	/**
-	 * Getter untuk data atribut absis
+	 * Getter untuk data atribut absis 
 	 * @return absis dari cell
 	 */
 	public int getAbsis() {
