@@ -9,10 +9,10 @@ public class Cell{
 	private Animal animal;
 	private Cage cage;
 	private String facility;
-	private String habitat;
-	private final char type;
-	private final int absis;
-	private final int ordinat;
+	public String habitat;
+	public final char type;
+	public final int absis;
+	public final int ordinat;
 	
 	/**
 	 * Constructor
@@ -27,7 +27,7 @@ public class Cell{
 	}
 	
 	/**
-	 * Getter untuk data atribut type 
+	 * Getter untuk data atribut type
 	 * @return type dari cell
 	 */
 	public char getType() {
@@ -35,7 +35,7 @@ public class Cell{
 	}
 
 	/**
-	 * Getter untuk data atribut absis 
+	 * Getter untuk data atribut absis
 	 * @return absis dari cell
 	 */
 	public int getAbsis() {
@@ -135,11 +135,11 @@ public class Cell{
 	 * method untuk menncetak isi dari cell ke layar
 	 */
 	public void render() {
-		if(animal!=null) {
-			System.out.print(animal);
+		if(animal==null) {
+			System.out.print(type);
 		}
 		else {
-			System.out.print(type);
+			System.out.print(animal);
 		}
 	}
 }

@@ -15,60 +15,51 @@ public class Zoo
 	private final int width;
 	private final int length;
 
-	public Zoo(int l, int w)
-	{
+	public Zoo(int l, int w) {
 		length = l;
 		width = w;
 		c = new Cell[length][width];
+		entrance = new Vector<Cell> (20);
+		exit = new Vector<Cell> (20);
 	}
 
-	public void setCell(int x, int y, Cell cell)
-	{
+	public void setCell(int x, int y, Cell cell) {
 		c[y][x] = cell;
 	}
 
-	public Cell getCell(int x, int y)
-	{
+	public Cell getCell(int x, int y) {
 		return c[y][x];
 	}
 
-	public int getWidth()
-	{
+	public int getWidth() {
 		return width;
 	}
 
-	public int getLength()
-	{
+	public int getLength() {
 		return length;
 	}
 
-	public void addEntrance(Cell e)
-	{
+	public void addEntrance(Cell e) {
 		entrance.addElement(e);
 	}
 
-	public void addExit(Cell x)
-	{
+	public void addExit(Cell x) {
 		exit.addElement(x);
 	}
 
-	public Cell getEntrance(int i)
-	{
+	public Cell getEntrance(int i) {
 		return entrance.elementAt(i);
 	}
 
-	public Cell getExit(int i)
-	{
+	public Cell getExit(int i) {
 		return exit.elementAt(i);
 	}
 
-	public int nbEntrance()
-	{
+	public int nbEntrance() {
 		return entrance.size();
 	}
 
-	public int nbExit()
-	{
+	public int nbExit() {
 		return exit.size();
 	}
 }
