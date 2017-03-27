@@ -8,10 +8,16 @@ public class CageHandler {
 	private int nb_cage;
 	private Vector<Cage> cage_list;
 
+	/**
+	 * Constructor 
+	 */
 	public CageHandler() {
 		cage_list = new Vector<Cage>();
 		nb_cage = 0;
 	}
+	/**
+	 * @return Cage dengan id id 
+	 */
 	public Cage getCage(int id) {
 		boolean found = false;
 		int i=0;
@@ -26,9 +32,15 @@ public class CageHandler {
 		else
 			return null;
 	}
+	/**
+	 * @return jumlah cage yang diciptakan 
+	 */
 	public int getNbCage() {
 		return nb_cage;
 	}
+	/**
+	 * @param cage Object Cage yang akan ditambah kedalam cagehandler 
+	 */
 	public void addCage(Cage cage) {
 		cage_list.addElement(cage);
 		nb_cage++;
