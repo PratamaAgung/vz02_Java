@@ -1,0 +1,3981 @@
+{
+    "AnimalList": [
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 15,
+                "y": 2
+            },
+            "Massa": 800000,
+            "Spesies": "Banteng"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 5,
+                "y": 7
+            },
+            "Massa": 870000,
+            "Spesies": "Banteng"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 17,
+                "y": 13
+            },
+            "Massa": 20000,
+            "Spesies": "Bekantan"
+        },
+        {
+            
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 18,
+                "y": 13
+            },
+            "Massa": 10000,
+            "Spesies": "Bekantan"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 10,
+                "y": 10
+            },
+            "Massa": 2000000,
+            "Spesies": "BadakCulaSatu"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 2,
+                "y": 14
+            },
+            "Massa": 1600000,
+            "Spesies": "BadakCulaSatu"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 9,
+                "y": 3
+            },
+            "Massa": 950000,
+            "Spesies": "Buaya"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 10,
+                "y": 5
+            },
+            "Massa": 1000000,
+            "Spesies": "Buaya"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 9,
+                "y": 7
+            },
+            "Massa": 50000,
+            "Spesies": "Rusa"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 3,
+                "y": 12
+            },
+            "Massa": 45000,
+            "Spesies": "Rusa"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 3,
+                "y": 11
+            },
+            "Massa": 500,
+            "Spesies": "Parkit"
+        },
+        {
+            "Id": 1,
+            "Jinak": false,
+            "Lokasi": {
+                "x": 9,
+                "y": 2
+            },
+            "Massa": 5000,
+            "Spesies": "Garuda"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 18,
+                "y": 4
+            },
+            "Massa": 4500,
+            "Spesies": "Garuda"
+        },
+        {
+            "Id": 3,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 16,
+                "y": 5
+            },
+            "Massa": 4300,
+            "Spesies": "Garuda"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 17,
+                "y": 2
+            },
+            "Massa": 120000,
+            "Spesies": "HarimauSumatra"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 18,
+                "y": 2
+            },
+            "Massa": 80000,
+            "Spesies": "HarimauSumatra"
+        },
+        {
+            "Id": 3,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 5,
+                "y": 14
+            },
+            "Massa": 97000,
+            "Spesies": "HarimauSumatra"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 12,
+                "y": 15
+            },
+            "Massa": 4000,
+            "Spesies": "Iguana"
+        },
+        {
+            "Id": 1,
+            "Jinak": false,
+            "Lokasi": {
+                "x": 14,
+                "y": 5
+            },
+            "Massa": 86000,
+            "Spesies": "Komodo"
+        },
+        {
+            "Id": 2,
+            "Jinak": false,
+            "Lokasi": {
+                "x": 15,
+                "y": 7
+            },
+            "Massa": 90000,
+            "Spesies": "Komodo"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 10,
+                "y": 8
+            },
+            "Massa": 2000,
+            "Spesies": "Kancil"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 14,
+                "y": 13
+            },
+            "Massa": 1700,
+            "Spesies": "Kancil"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 12,
+                "y": 4
+            },
+            "Massa": 360000,
+            "Spesies": "Aligator"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 6,
+                "y": 16
+            },
+            "Massa": 290000,
+            "Spesies": "Aligator"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 15,
+                "y": 0
+            },
+            "Massa": 78000,
+            "Spesies": "Macan"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 8,
+                "y": 13
+            },
+            "Massa": 88000,
+            "Spesies": "Macan"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 2,
+                "y": 9
+            },
+            "Massa": 480,
+            "Spesies": "Nuri"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 0,
+                "y": 10
+            },
+            "Massa": 400,
+            "Spesies": "Nuri"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 15,
+                "y": 15
+            },
+            "Massa": 290,
+            "Spesies": "Kakatua"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 13,
+                "y": 16
+            },
+            "Massa": 310,
+            "Spesies": "Kakatua"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 0,
+                "y": 5
+            },
+            "Massa": 1300000,
+            "Spesies": "MantaRay"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 8,
+                "y": 11
+            },
+            "Massa": 1000000,
+            "Spesies": "MantaRay"
+        },
+        {
+            "Id": 3,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 1,
+                "y": 16
+            },
+            "Massa": 1350000,
+            "Spesies": "MantaRay"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 17,
+                "y": 16
+            },
+            "Massa": 11900,
+            "Spesies": "Siamang"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 16,
+                "y": 18
+            },
+            "Massa": 10700,
+            "Spesies": "Siamang"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 5,
+                "y": 0
+            },
+            "Massa": 500000,
+            "Spesies": "HiuMartil"
+        },
+        {
+            "Id": 2,
+            "Jinak": false,
+            "Lokasi": {
+                "x": 10,
+                "y": 14
+            },
+            "Massa": 480000,
+            "Spesies": "HiuMartil"
+        },
+        {
+            "Id": 3,
+            "Jinak": false,
+            "Lokasi": {
+                "x": 9,
+                "y": 16
+            },
+            "Massa": 300000,
+            "Spesies": "HiuMartil"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 7,
+                "y": 4
+            },
+            "Massa": 37000,
+            "Spesies": "OrangUtan"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 6,
+                "y": 5
+            },
+            "Massa": 60000,
+            "Spesies": "OrangUtan"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 8,
+                "y": 1
+            },
+            "Massa": 350000,
+            "Spesies": "HiuKarpet"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 3,
+                "y": 5
+            },
+            "Massa": 300000,
+            "Spesies": "HiuKarpet"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 4,
+                "y": 3
+            },
+            "Massa": 8000,
+            "Spesies": "StingRay"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 5,
+                "y": 10
+            },
+            "Massa": 13000,
+            "Spesies": "StingRay"
+        },
+        {
+            "Id": 3,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 10,
+                "y": 11
+            },
+            "Massa": 6000,
+            "Spesies": "StingRay"
+        },
+        {
+            "Id": 4,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 3,
+                "y": 16
+            },
+            "Massa": 5000,
+            "Spesies": "StingRay"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 5,
+                "y": 8
+            },
+            "Massa": 120000,
+            "Spesies": "Zebra"
+        },
+        {
+            "Id": 1,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 1,
+                "y": 1
+            },
+            "Massa": 1000,
+            "Spesies": "Elang"
+        },
+        {
+            "Id": 2,
+            "Jinak": true,
+            "Lokasi": {
+                "x": 3,
+                "y": 2
+            },
+            "Massa": 1200,
+            "Spesies": "Elang"
+        }
+    ],
+    "CageList": [
+        {
+            "Habitat": "o",
+            "Id": 1
+        },
+        {
+            "Habitat": "w",
+            "Id": 2
+        },
+        {
+            "Habitat": "x",
+            "Id": 3
+        },
+        {
+            "Habitat": "w",
+            "Id": 4
+        },
+        {
+            "Habitat": "x",
+            "Id": 5
+        },
+        {
+            "Habitat": "o",
+            "Id": 6
+        },
+        {
+            "Habitat": "x",
+            "Id": 7
+        },
+        {
+            "Habitat": "x",
+            "Id": 8
+        },
+        {
+            "Habitat": "w",
+            "Id": 9
+        },
+        {
+            "Habitat": "x",
+            "Id": 10
+        },
+        {
+            "Habitat": "x",
+            "Id": 11
+        },
+        {
+            "Habitat": "x",
+            "Id": 12
+        },
+        {
+            "Habitat": "x",
+            "Id": 13
+        },
+        {
+            "Habitat": "o",
+            "Id": 14
+        },
+        {
+            "Habitat": "w",
+            "Id": 15
+        },
+        {
+            "Habitat": "w",
+            "Id": 16
+        },
+        {
+            "Habitat": "x",
+            "Id": 17
+        },
+        {
+            "Habitat": "o",
+            "Id": 18
+        },
+        {
+            "Habitat": "w",
+            "Id": 19
+        },
+        {
+            "Habitat": "o",
+            "Id": 20
+        }
+    ],
+    "CellList": [
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 1,
+            "Lokasi": {
+                "x": 0,
+                "y": 1
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 1,
+            "Lokasi": {
+                "x": 0,
+                "y": 2
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 0,
+                "y": 3
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 0,
+                "y": 4
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 0,
+                "y": 5
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": true,
+            "type": "road"
+        },
+        {
+            "Cage": 10,
+            "Lokasi": {
+                "x": 0,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 0,
+                "y": 8
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 0,
+                "y": 9
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 0,
+                "y": 10
+            },
+            "type": "air"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 11
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 12
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 15
+            },
+            "entrance": false,
+            "exit": true,
+            "type": "road"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 0,
+                "y": 16
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 17
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 18
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 0,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 1,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 1,
+            "Lokasi": {
+                "x": 1,
+                "y": 1
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 1,
+            "Lokasi": {
+                "x": 1,
+                "y": 2
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 1,
+                "y": 3
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 1,
+                "y": 4
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 1,
+                "y": 5
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 1,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 10,
+            "Lokasi": {
+                "x": 1,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 10,
+            "Lokasi": {
+                "x": 1,
+                "y": 8
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 1,
+                "y": 9
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 1,
+                "y": 10
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 1,
+                "y": 11
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 1,
+                "y": 12
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 1,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 1,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 1,
+                "y": 15
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 1,
+                "y": 16
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 1,
+                "y": 17
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 1,
+                "y": 18
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 1,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 2,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 1,
+            "Lokasi": {
+                "x": 2,
+                "y": 1
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 1,
+            "Lokasi": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 2,
+                "y": 3
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 2,
+                "y": 4
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 2,
+                "y": 5
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 2,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 10,
+            "Lokasi": {
+                "x": 2,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 10,
+            "Lokasi": {
+                "x": 2,
+                "y": 8
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 2,
+                "y": 9
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 2,
+                "y": 10
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 2,
+                "y": 11
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 2,
+                "y": 12
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 2,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 2,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 2,
+                "y": 15
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 2,
+                "y": 16
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 2,
+                "y": 17
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 2,
+                "y": 18
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 2,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 3,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 1,
+            "Lokasi": {
+                "x": 3,
+                "y": 1
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 1,
+            "Lokasi": {
+                "x": 3,
+                "y": 2
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 3,
+                "y": 3
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 3,
+                "y": 4
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 3,
+                "y": 5
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 3,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 10,
+            "Lokasi": {
+                "x": 3,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 10,
+            "Lokasi": {
+                "x": 3,
+                "y": 8
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 3,
+                "y": 9
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 3,
+                "y": 10
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 18,
+            "Lokasi": {
+                "x": 3,
+                "y": 11
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 3,
+                "y": 12
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 3,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 11,
+            "Lokasi": {
+                "x": 3,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 3,
+                "y": 15
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 3,
+                "y": 16
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 3,
+                "y": 17
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 16,
+            "Lokasi": {
+                "x": 3,
+                "y": 18
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 3,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 0
+            },
+            "entrance": true,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 1
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 2
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 4,
+                "y": 3
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 4,
+                "y": 4
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 4,
+                "y": 5
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 7
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 8
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 9
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 10
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 11
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 13
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 14
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 15
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 16
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 18
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 4,
+                "y": 19
+            },
+            "entrance": true,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 5,
+                "y": 0
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 5,
+                "y": 1
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 5,
+                "y": 2
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 2,
+            "Lokasi": {
+                "x": 5,
+                "y": 3
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 5,
+                "y": 4
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 5,
+                "y": 5
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 5,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 5,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 5,
+                "y": 8
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 5,
+                "y": 9
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 5,
+                "y": 10
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 5,
+                "y": 11
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 5,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 5,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 5,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 5,
+                "y": 15
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 5,
+                "y": 16
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 5,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 5,
+                "y": 18
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 5,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 6,
+                "y": 0
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 6,
+                "y": 1
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 6,
+                "y": 2
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 6,
+                "y": 3
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 6,
+                "y": 4
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 6,
+                "y": 5
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 6,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 6,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 6,
+                "y": 8
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 6,
+                "y": 9
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 6,
+                "y": 10
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 6,
+                "y": 11
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 6,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 6,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 6,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 6,
+                "y": 15
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 6,
+                "y": 16
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 6,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 6,
+                "y": 18
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 6,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 7,
+                "y": 0
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 7,
+                "y": 1
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 7,
+                "y": 2
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 7,
+                "y": 3
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 7,
+                "y": 4
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 3,
+            "Lokasi": {
+                "x": 7,
+                "y": 5
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 7,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 7,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 7,
+                "y": 8
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 7,
+                "y": 9
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 7,
+                "y": 10
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 7,
+                "y": 11
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 7,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 7,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 7,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 7,
+                "y": 15
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 7,
+                "y": 16
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 7,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 7,
+                "y": 18
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 7,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 8,
+                "y": 0
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 8,
+                "y": 1
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 8,
+                "y": 2
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 8,
+                "y": 3
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 8,
+                "y": 4
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 8,
+                "y": 5
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 8,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 8,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 8,
+                "y": 8
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 8,
+                "y": 9
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 8,
+                "y": 10
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 8,
+                "y": 11
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 8,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 8,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 8,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 8,
+                "y": 15
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 15,
+            "Lokasi": {
+                "x": 8,
+                "y": 16
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 8,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 8,
+                "y": 18
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 8,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 9,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 9,
+                "y": 1
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 6,
+            "Lokasi": {
+                "x": 9,
+                "y": 2
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 9,
+                "y": 3
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 9,
+                "y": 4
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 9,
+                "y": 5
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 9,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 9,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 9,
+                "y": 8
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 9,
+                "y": 9
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 9,
+                "y": 10
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 9,
+                "y": 11
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 9,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 9,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 15,
+            "Lokasi": {
+                "x": 9,
+                "y": 14
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 15,
+            "Lokasi": {
+                "x": 9,
+                "y": 15
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 15,
+            "Lokasi": {
+                "x": 9,
+                "y": 16
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 9,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 9,
+                "y": 18
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 9,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 10,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 4,
+            "Lokasi": {
+                "x": 10,
+                "y": 1
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 6,
+            "Lokasi": {
+                "x": 10,
+                "y": 2
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 10,
+                "y": 3
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 10,
+                "y": 4
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 10,
+                "y": 5
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 10,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 10,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 10,
+                "y": 8
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 10,
+                "y": 9
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 8,
+            "Lokasi": {
+                "x": 10,
+                "y": 10
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 9,
+            "Lokasi": {
+                "x": 10,
+                "y": 11
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 10,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 12,
+            "Lokasi": {
+                "x": 10,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 15,
+            "Lokasi": {
+                "x": 10,
+                "y": 14
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 15,
+            "Lokasi": {
+                "x": 10,
+                "y": 15
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 15,
+            "Lokasi": {
+                "x": 10,
+                "y": 16
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 10,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 10,
+                "y": 18
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 10,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 11,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 11,
+                "y": 1
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 6,
+            "Lokasi": {
+                "x": 11,
+                "y": 2
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 6,
+            "Lokasi": {
+                "x": 11,
+                "y": 3
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 11,
+                "y": 4
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 11,
+                "y": 5
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 7
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 8
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 9
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 10
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 11
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 13
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 14
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 15
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 16
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 18
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 11,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 12,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 12,
+                "y": 1
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 6,
+            "Lokasi": {
+                "x": 12,
+                "y": 2
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 6,
+            "Lokasi": {
+                "x": 12,
+                "y": 3
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 12,
+                "y": 4
+            },
+            "type": "water"
+        },
+        {
+            "Cage": 19,
+            "Lokasi": {
+                "x": 12,
+                "y": 5
+            },
+            "type": "water"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 12,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 12,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 12,
+                "y": 8
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 12,
+                "y": 9
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 12,
+                "y": 10
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 12,
+                "y": 11
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 12,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 13,
+            "Lokasi": {
+                "x": 12,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 13,
+            "Lokasi": {
+                "x": 12,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 13,
+            "Lokasi": {
+                "x": 12,
+                "y": 15
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 14,
+            "Lokasi": {
+                "x": 12,
+                "y": 16
+            },
+            "type": "air"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 12,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 12,
+                "y": 18
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 12,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 13,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 13,
+                "y": 1
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 6,
+            "Lokasi": {
+                "x": 13,
+                "y": 2
+            },
+            "type": "air"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 3
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 4
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 5
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 6
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 13,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 8
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 9
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 10
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 11
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 13,
+            "Lokasi": {
+                "x": 13,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 13,
+            "Lokasi": {
+                "x": 13,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 14,
+            "Lokasi": {
+                "x": 13,
+                "y": 15
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 14,
+            "Lokasi": {
+                "x": 13,
+                "y": 16
+            },
+            "type": "air"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 18
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 13,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 14,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 14,
+                "y": 1
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 14,
+                "y": 2
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 14,
+                "y": 3
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 14,
+                "y": 4
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 14,
+                "y": 5
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 14,
+                "y": 6
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 14,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 14,
+                "y": 8
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 14,
+                "y": 9
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 14,
+                "y": 10
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 14,
+                "y": 11
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 14,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 13,
+            "Lokasi": {
+                "x": 14,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 13,
+            "Lokasi": {
+                "x": 14,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 14,
+            "Lokasi": {
+                "x": 14,
+                "y": 15
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 14,
+            "Lokasi": {
+                "x": 14,
+                "y": 16
+            },
+            "type": "air"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 14,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 14,
+                "y": 18
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 14,
+                "y": 19
+            },
+            "entrance": true,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 15,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 15,
+                "y": 1
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 15,
+                "y": 2
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 15,
+                "y": 3
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 15,
+                "y": 4
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 15,
+                "y": 5
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 15,
+                "y": 6
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 15,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 15,
+                "y": 8
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 15,
+                "y": 9
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 15,
+                "y": 10
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 15,
+                "y": 11
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 15,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 13,
+            "Lokasi": {
+                "x": 15,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 13,
+            "Lokasi": {
+                "x": 15,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 14,
+            "Lokasi": {
+                "x": 15,
+                "y": 15
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 14,
+            "Lokasi": {
+                "x": 15,
+                "y": 16
+            },
+            "type": "air"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 15,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 15,
+                "y": 18
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 15,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 16,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 16,
+                "y": 1
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 16,
+                "y": 2
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 3
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 16,
+                "y": 4
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 16,
+                "y": 5
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 16,
+                "y": 6
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 7,
+            "Lokasi": {
+                "x": 16,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 8
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 9
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 10
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 11
+            },
+            "type": "restaurant"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 13
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 14
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 15
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 16
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 17
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 16,
+                "y": 18
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 16,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 17,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 17,
+                "y": 1
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 17,
+                "y": 2
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 17,
+                "y": 3
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 17,
+                "y": 4
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 17,
+                "y": 5
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 17,
+                "y": 6
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 17,
+                "y": 7
+            },
+            "type": "air"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 17,
+                "y": 8
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 17,
+                "y": 9
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 17,
+                "y": 10
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 17,
+                "y": 11
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 17,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 17,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 17,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 17,
+                "y": 15
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 17,
+                "y": 16
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 17,
+                "y": 17
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 17,
+                "y": 18
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 17,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 18,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 18,
+                "y": 1
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 5,
+            "Lokasi": {
+                "x": 18,
+                "y": 2
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 18,
+                "y": 3
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 18,
+                "y": 4
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 18,
+                "y": 5
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 18,
+                "y": 6
+            },
+            "type": "air"
+        },
+        {
+            "Cage": 20,
+            "Lokasi": {
+                "x": 18,
+                "y": 7
+            },
+            "type": "air"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 18,
+                "y": 8
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 18,
+                "y": 9
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 18,
+                "y": 10
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 18,
+                "y": 11
+            },
+            "type": "park"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 18,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 18,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 18,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 18,
+                "y": 15
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 18,
+                "y": 16
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 18,
+                "y": 17
+            },
+            "type": "land"
+        },
+        {
+            "Cage": 17,
+            "Lokasi": {
+                "x": 18,
+                "y": 18
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 18,
+                "y": 19
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 0
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 1
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 2
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 3
+            },
+            "entrance": true,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 4
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 5
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 6
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 7
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 8
+            },
+            "entrance": true,
+            "exit": false,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 9
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 10
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 11
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 12
+            },
+            "entrance": false,
+            "exit": true,
+            "type": "road"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 13
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 14
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 15
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 16
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 17
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 18
+            },
+            "type": "land"
+        },
+        {
+            "Cage": -1,
+            "Lokasi": {
+                "x": 19,
+                "y": 19
+            },
+            "type": "land"
+        }
+    ],
+    "ZooLength": 20,
+    "ZooWidth": 20
+}
