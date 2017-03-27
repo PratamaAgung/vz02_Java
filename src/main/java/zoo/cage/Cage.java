@@ -5,10 +5,11 @@ import java.util.Vector;
 
 /**
  * @class Cage merepresentasikan tempat hidup hewan
+ * @author Annisa Muzdalifa
  */
 public class Cage {
-	private int id;
-	private char habitat;
+	private final int id;
+	private final char habitat;
 	private int luas;
 	private Vector<Animal> animal_list;
 
@@ -90,7 +91,7 @@ public class Cage {
 	/**
 	 * @return jenis habitat Cage
 	 */
-	public int getHabitat() {
+	public char getHabitat() {
 		return habitat;
 	}
 	/**

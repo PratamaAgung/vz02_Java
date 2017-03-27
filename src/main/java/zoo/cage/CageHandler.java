@@ -3,6 +3,7 @@ import java.util.Vector;
 
 /**
  * @class CageHandler berfungsi memanage cage
+ * @author Annisa Muzdalifa
  */
 public class CageHandler {
 	private int nb_cage;
