@@ -1,5 +1,6 @@
 package driver;
 import animal.*;
+import cage.*;
 
 import java.util.*;
 import java.io.*;
@@ -55,5 +56,40 @@ public class Driver{
             e.printStackTrace();
         }
 		return animalHandler;
+	}
+	
+	public CageHandler parseCage(){
+		CageHandler cageHandler= new CageHandler();
+		try{
+			FileReader fin= null;
+			JSONParser parser = new JSONParser();
+			
+			fin= new FileReader("src/main/resource/map.json"); 
+			JSONObject obj = (JSONObject) parser.parse(fin);
+
+			JSONArray cageArray= (JSONArray) obj.get("CageList");
+			Iterator<JSONObject> allCage = cageArray.iterator();
+		
+			char habitat;
+			int id;
+            while (allCage.hasNext()) {
+            	JSONObject currCage= (JSONObject) allCage.next();
+            	habitat= (char) currCage.get("Habitat");
+                id= new Long((long) currCage.get("Id")).intValue();
+                
+                cageHandler.addCage(new Cage(id,habitat));
+            }
+            
+		} 
+		catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } 
+		catch (IOException e) {
+            e.printStackTrace();
+        } 
+		catch (ParseException e) {
+            e.printStackTrace();
+        }
+		return cageHandler;
 	}
 }

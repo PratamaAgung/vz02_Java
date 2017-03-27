@@ -1,58 +1,99 @@
 package cell;
+import animal.*;
+import cage.*;
 
-import java.util.*;
-
+/**
+ * @class Cell merepresentasikan unit-unit pembangun virtual zoo
+ */
 public class Cell{
-	private int animal;
-	private int cage;
+	private Animal animal;
+	private Cage cage;
 	private String facility;
 	public String habitat;
 	public final char type;
 	public final int absis;
 	public final int ordinat;
-
+	
+	/**
+	 * Constructor
+	 * @param c merepresentasikan type dari cell
+	 * @param x absis lokasi cell
+	 * @param y ordinat lokasi cell
+	 */
 	public Cell(char c, int x, int y) {
 		type=c;
 		absis=x;
 		ordinat=y;
 	}
-
-	public char GetType() {
+	
+	/**
+	 * Getter untuk data atribut type
+	 * @return type dari cell
+	 */
+	public char getType() {
 		return type;
 	}
 
-	public int GetAbsis() {
+	/**
+	 * Getter untuk data atribut absis
+	 * @return absis dari cell
+	 */
+	public int getAbsis() {
 		return absis;
 	}
 
-	public int GetOrdinat() {
+	/**
+	 * Getter untuk data atribut ordinat
+	 * @return ordinat dari cell
+	 */
+	public int getOrdinat() {
 		return ordinat;
 	}
 
-	public int GetCage() {
+	/**
+	 * Getter untuk data atribut cage
+	 * @return cage dari cell
+	 */
+	public Cage getCage() {
 		return cage;
 	}
 
-	public void SetCage(int _cage) {
+	/**
+	 * Setter untuk data atribut cage
+	 * @param _cage objek Cage yang meliputi Cell
+	 */
+	public void setCage(Cage _cage) {
 		cage=_cage;
 	}
 
-	public int GetAnimal() {
+	/**
+	 * Getter untuk data atribut animal
+	 * @return animal yang ada pada cell
+	 */
+	public Animal getAnimal() {
 		return animal;
 	}
 
-	public void SetAnimal(int _animal) {
-		if(_animal==0) {
-			animal=0;
-		}
-		else {
-			if(animal==0) {
-				animal=_animal;
-			}
-		}
+	/**
+	 * Setter untuk data atribut animal
+	 * @param _animal animal yang akan dimasukkan ke dalam cell
+	 */
+	public void setAnimal(Animal _animal) {
+		animal=_animal;
+	}
+	
+	/**
+	 * Method untuk menghapus keberadaan animal pada suatu cell
+	 */
+	public void eraseAnimal() {
+		animal=null;
 	}
 
-	public String GetHabitat() {
+	/**
+	 * Getter untuk data atribut habitat
+	 * @return jenis habitat dari cell
+	 */
+	public String getHabitat() {
 		if(habitat.charAt(0)!='\0'){
 			return habitat;
 		}
@@ -61,11 +102,19 @@ public class Cell{
 		}
 	}
 
-	public void SetHabitat(String _habitat) {
+	/**
+	 * Setter untuk data atribut habitat
+	 * @param _habitat habitat dari cell
+	 */
+	public void setHabitat(String _habitat) {
 		habitat=_habitat;
 	}
 
-	public String GetFacility() {
+	/**
+	 * Getter untuk data atribut facility
+	 * @return fasilitas yang ada pada cell
+	 */
+	public String getFacility() {
 		if(facility.charAt(0)!='\0') {
 			return facility;
 		}
@@ -74,12 +123,19 @@ public class Cell{
 		}
 	}
 
-	public void SetFacility(String _facility) {
+	/**
+	 * setter untuk data atribut facility
+	 * @param _facility fasilitas yang ada pada cell
+	 */
+	public void setFacility(String _facility) {
 		facility=_facility;
 	}
 
-	public void Render() {
-		if(animal!=0) {
+	/**
+	 * method untuk menncetak isi dari cell ke layar
+	 */
+	public void render() {
+		if(animal!=null) {
 			System.out.print(animal);
 		}
 		else {
