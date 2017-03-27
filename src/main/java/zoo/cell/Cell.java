@@ -1,10 +1,10 @@
 package cell;
 import animal.*;
-
+import cage.*;
 
 public class Cell{
 	private Animal animal;
-	private int cage;
+	private Cage cage;
 	private String facility;
 	public String habitat;
 	public final char type;
@@ -29,11 +29,11 @@ public class Cell{
 		return ordinat;
 	}
 
-	public int getCage() {
+	public Cage getCage() {
 		return cage;
 	}
 
-	public void setCage(int _cage) {
+	public void setCage(Cage _cage) {
 		cage=_cage;
 	}
 
