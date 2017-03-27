@@ -1,9 +1,9 @@
 package cell;
+import animal.*;
 
-import java.util.*;
 
 public class Cell{
-	private int animal;
+	private Animal animal;
 	private int cage;
 	private String facility;
 	public String habitat;
@@ -17,42 +17,42 @@ public class Cell{
 		ordinat=y;
 	}
 
-	public char GetType() {
+	public char getType() {
 		return type;
 	}
 
-	public int GetAbsis() {
+	public int getAbsis() {
 		return absis;
 	}
 
-	public int GetOrdinat() {
+	public int getOrdinat() {
 		return ordinat;
 	}
 
-	public int GetCage() {
+	public int getCage() {
 		return cage;
 	}
 
-	public void SetCage(int _cage) {
+	public void setCage(int _cage) {
 		cage=_cage;
 	}
 
-	public int GetAnimal() {
+	public Animal getAnimal() {
 		return animal;
 	}
 
-	public void SetAnimal(int _animal) {
-		if(_animal==0) {
-			animal=0;
+	public void setAnimal(Animal _animal) {
+		if(_animal==null) {
+			animal=null;
 		}
 		else {
-			if(animal==0) {
+			if(animal==null) {
 				animal=_animal;
 			}
 		}
 	}
 
-	public String GetHabitat() {
+	public String getHabitat() {
 		if(habitat.charAt(0)!='\0'){
 			return habitat;
 		}
@@ -61,11 +61,11 @@ public class Cell{
 		}
 	}
 
-	public void SetHabitat(String _habitat) {
+	public void setHabitat(String _habitat) {
 		habitat=_habitat;
 	}
 
-	public String GetFacility() {
+	public String getFacility() {
 		if(facility.charAt(0)!='\0') {
 			return facility;
 		}
@@ -74,12 +74,12 @@ public class Cell{
 		}
 	}
 
-	public void SetFacility(String _facility) {
+	public void setFacility(String _facility) {
 		facility=_facility;
 	}
 
-	public void Render() {
-		if(animal!=0) {
+	public void render() {
+		if(animal!=null) {
 			System.out.print(animal);
 		}
 		else {
