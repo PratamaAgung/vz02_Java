@@ -1,5 +1,4 @@
 package animal;
-import java.util.*;
 
 /**
  * @class Animal merepresentasikan atribut dan method apa saja dari animal yang berada dalam virtual zoo
@@ -97,9 +96,10 @@ public class Animal{
 	}
 	/**
 	 * Method render() berfungsi untuk menampilkan inisial dari object ke layar
+	 * @return mengembalikan character simbol hewan yang akan dicetak ke layar
 	 */
-	public void render() {
-		System.out.print(inisial); 
+	public char render() {
+		return inisial;
 	}
 	/**
 	 * @return Mengembalikan habitat dari object Animal
@@ -121,9 +121,10 @@ public class Animal{
 	}
 	/**
 	 * Method interact() bertujuan untuk menampilkan hasil interaksi object dengan pengunjung
+	 * @return mengembalikan string interaksi animal yang akan dicetak ke layar
 	 */
-	public void interact() {
-		System.out.println(nama + ": " + interaksi);
+	public String interact() {
+		return interaksi;
 	}
 	/**
 	 * @return Fungsi getSpesies() bertujuan untuk mengembalikan nama spesies dari sebuah object

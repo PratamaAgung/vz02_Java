@@ -13,7 +13,7 @@ public class Cell{
 	public final char type;
 	public final int absis;
 	public final int ordinat;
-	
+
 	/**
 	 * Constructor
 	 * @param c merepresentasikan type dari cell
@@ -25,7 +25,7 @@ public class Cell{
 		absis=x;
 		ordinat=y;
 	}
-	
+
 	/**
 	 * Getter untuk data atribut type
 	 * @return type dari cell
@@ -81,7 +81,7 @@ public class Cell{
 	public void setAnimal(Animal _animal) {
 		animal=_animal;
 	}
-	
+
 	/**
 	 * Method untuk menghapus keberadaan animal pada suatu cell
 	 */
@@ -133,13 +133,14 @@ public class Cell{
 
 	/**
 	 * method untuk mencetak isi dari cell ke layar
+	 * @return character yang akan dicetak untuk di layar
 	 */
-	public void render() {
+	public char render() {
 		if(animal==null) {
-			System.out.print(type);
+			return type;
 		}
 		else {
-			animal.render();
+			return animal.render();
 		}
 	}
 }
