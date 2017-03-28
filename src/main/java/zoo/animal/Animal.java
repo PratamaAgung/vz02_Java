@@ -2,19 +2,21 @@ package animal;
 
 /**
  * @author Iftitakhul Zakiah.
- * @class Animal merepresentasikan atribut dan method apa saja dari animal yang berada dalam virtual zoo.
+ * @class Animal merepresentasikan atribut dan method apa saja dari animal yang
+   berada dalam virtual zoo.
  */
-public class Animal{
-  private int x;
-  private int y;
+public class Animal {
+  private int abs;
+  private int ord;
   private int massa;
   private boolean jinak;
   private String type;
-  private int ID;
+  private int id;
   private char inisial;
   private String nama;
   private String interaksi;
-  private int ratio=30;
+  private int ratio = 30;
+
   /**
    * Konstruktor untuk kelas Animal.
    * @param absis lokasi absis untuk kelas animal.
@@ -25,26 +27,27 @@ public class Animal{
    * @param interaksi interaksi yang diberikan oleh animal.
    * @param jinak apakah animal tersebut jinak.
    * @param habitat habitat dari animal.
-   * @param i id dari animal.
+   * @param idInput id dari animal.
    */
-  public Animal(int absis, int ordinat, int m, char c, String nama, String interaksi, boolean jinak, String habitat, int i) {
+  public Animal(int absis, int ordinat, int m, char c, String nama, String interaksi,
+      boolean jinak, String habitat, int idInput) {
     inisial = c;
     this.nama = nama;
     this.interaksi = interaksi;
     this.jinak = jinak;
-    ID = i;
+    id = idInput;
     type = habitat;
-    x = absis;
-    y = ordinat;
+    abs = absis;
+    ord = ordinat;
     massa = m;
   }
 
   /**
    * Methos untuk menentukan kejinakan suatu hewan.
-   * @param _jinak merepresentasikan apakah suatu object jinak atau tidak.
+   * @param jinakInput merepresentasikan apakah suatu object jinak atau tidak.
    */
-  public void setJinak(boolean _jinak) {
-    jinak = _jinak;
+  public void setJinak(boolean jinakInput) {
+    jinak = jinakInput;
   }
 
   /**
@@ -67,8 +70,8 @@ public class Animal{
    * Getter untuk data member ID.
    * @return Mengembalikan nilai ID dari suatu object.
    */
-  public int getID() {
-    return ID;
+  public int getId() {
+    return id;
   }
 
   /**
@@ -84,7 +87,7 @@ public class Animal{
    * @return Mengembalikan nilai koordinat object pada sumbu X.
    */
   public int getPosisiX() {
-    return x;
+    return abs;
   }
 
   /**
@@ -92,7 +95,7 @@ public class Animal{
    * @return Mengembalikan nilai koordinat object pada sumbu Y.
    */
   public int getPosisiY() {
-    return y;
+    return ord;
   }
 
   /**
@@ -113,18 +116,18 @@ public class Animal{
 
   /**
    * Setter untuk data member absis.
-   * @param abs merepresentasikan posisi object pada sumbu X.
+   * @param absInput merepresentasikan posisi object pada sumbu X.
    */
-  public void setX(int abs) {
-    x = abs;
+  public void setX(int absInput) {
+    abs = absInput;
   }
 
   /**
    * Setter untuk data member.
-   * @param ord merepresentasikan posisi object pada sumbu y.
+   * @param ordInput merepresentasikan posisi object pada sumbu y.
    */
-  public void setY(int ord) {
-    y = ord;
+  public void setY(int ordInput) {
+    ord = ordInput;
   }
 
   /**
@@ -156,7 +159,7 @@ public class Animal{
    * @return Mengembalikan nilai makanan yang dibutuhkan object per hari.
    */
   public int getMakanan() {
-    return massa/ratio;
+    return massa / ratio;
   }
 
   /**

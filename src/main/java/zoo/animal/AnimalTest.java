@@ -1,6 +1,6 @@
 package animal;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -16,7 +16,7 @@ public class AnimalTest {
     assertEquals("OrangUtan",animal1.getSpesies());
     assertEquals(true,animal1.isJinak());
     assertEquals("X",animal1.getType());
-    assertEquals(1,animal1.getID());
+    assertEquals(1,animal1.getId());
   }
 
   @Test
@@ -39,9 +39,9 @@ public class AnimalTest {
   }
 
   @Test
-  public void testGetID() {
+  public void testGetId() {
     Animal animal1 = new Animal(1,2,50,'O',"OrangUtan","Auuuooo",true,"X",1);
-    assertEquals(1,animal1.getID());
+    assertEquals(1,animal1.getId());
   }
 
   @Test
@@ -105,7 +105,7 @@ public class AnimalTest {
   @Test
   public void testGetMakanan() {
     Animal animal1 = new Animal(1,2,50,'O',"OrangUtan","Auuuooo",true,"X",1);
-    int makanan = 50/30;
+    int makanan = 50 / 30;
     assertEquals(makanan,animal1.getMakanan());
   }
 

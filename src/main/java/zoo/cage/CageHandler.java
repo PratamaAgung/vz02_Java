@@ -1,4 +1,5 @@
 package cage;
+
 import java.util.Vector;
 
 /**
@@ -6,15 +7,15 @@ import java.util.Vector;
  * @class CageHandler berfungsi memanage cage.
  */
 public class CageHandler {
-  private int nb_cage;
-  private Vector<Cage> cage_list;
+  private int nbCage;
+  private Vector<Cage> cageList;
 
   /**
-   * Konstruktor kelas CageHandler
+   * Konstruktor kelas CageHandler.
    */
   public CageHandler() {
-    cage_list = new Vector<Cage>();
-    nb_cage = 0;
+    cageList = new Vector<Cage>();
+    nbCage = 0;
   }
 
   /**
@@ -24,17 +25,19 @@ public class CageHandler {
    */
   public Cage getCage(int id) {
     boolean found = false;
-    int i=0;
-    while((!found) && (i<nb_cage)){
-      if(cage_list.elementAt(i).getId() == id)
-        found=true;
-      else
+    int i = 0;
+    while ((!found) && (i < nbCage)) {
+      if (cageList.elementAt(i).getId() == id) {
+        found = true;
+      } else {
         i++;
+      }
     }
-    if(found)
-      return cage_list.elementAt(i);
-    else
+    if (found) {
+      return cageList.elementAt(i);
+    } else {
       return null;
+    }
   }
 
   /**
@@ -42,7 +45,7 @@ public class CageHandler {
    * @return banyaknya cage yang ada.
    */
   public int getNbCage() {
-    return nb_cage;
+    return nbCage;
   }
 
   /**
@@ -50,7 +53,7 @@ public class CageHandler {
    * @param cage Cage yang ingin ditambahkan.
    */
   public void addCage(Cage cage) {
-    cage_list.addElement(cage);
-    nb_cage++;
+    cageList.addElement(cage);
+    nbCage++;
   }
 }

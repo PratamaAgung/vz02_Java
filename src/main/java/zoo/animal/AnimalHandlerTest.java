@@ -1,6 +1,6 @@
 package animal;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -41,9 +41,9 @@ public class AnimalHandlerTest {
     AnimalHandler anhand = new AnimalHandler();
     Animal animal1 = new Animal(1,2,50,'O',"OrangUtan","Auuuooo",true,"X",1);
     anhand.addAnimal(animal1);
-    int makanan = anhand.getAnimal(0).getMassa()/30;
+    int makanan = anhand.getAnimal(0).getMassa() / 30;
     assertEquals(makanan,anhand.jumlahMakanan());
-    
+
   }
 
 }

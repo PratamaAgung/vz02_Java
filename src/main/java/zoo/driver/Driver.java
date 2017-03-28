@@ -169,37 +169,34 @@ public class Driver {
    * @return CageHAndler yang telah terisi.
    */
   public CageHandler parseCage() {
-    CageHandler cageHandler= new CageHandler();
-    try{
-      FileReader fin= null;
+    CageHandler cageHandler = new CageHandler();
+    try {
+      FileReader fin = null;
       JSONParser parser = new JSONParser();
 
-      fin= new FileReader("src/main/resource/map.json");
+      fin = new FileReader("src/main/resource/map.json");
       JSONObject obj = (JSONObject) parser.parse(fin);
 
-      JSONArray cageArray= (JSONArray) obj.get("CageList");
+      JSONArray cageArray = (JSONArray) obj.get("CageList");
       Iterator<JSONObject> allCage = cageArray.iterator();
 
       char habitat;
       int id;
-            while (allCage.hasNext()) {
-              JSONObject currCage= (JSONObject) allCage.next();
-              habitat= new String((String) currCage.get("Habitat")).charAt(0);
-                id= new Long((long) currCage.get("Id")).intValue();
+      while (allCage.hasNext()) {
+        JSONObject currCage = (JSONObject) allCage.next();
+        habitat = new String((String) currCage.get("Habitat")).charAt(0);
+        id = new Long((long) currCage.get("Id")).intValue();
 
-                cageHandler.addCage(new Cage(id,habitat));
-            }
-            fin.close();
+        cageHandler.addCage(new Cage(id,habitat));
+      }
+      fin.close();
+    } catch (FileNotFoundException e) {
+      e.printStackTrace();
+    } catch (IOException e) {
+      e.printStackTrace();
+    } catch (ParseException e) {
+      e.printStackTrace();
     }
-    catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    catch (IOException e) {
-            e.printStackTrace();
-        }
-    catch (ParseException e) {
-            e.printStackTrace();
-        }
     return cageHandler;
   }
 
@@ -210,78 +207,75 @@ public class Driver {
    */
   public Zoo parseCell(CageHandler cageHandler) {
     Zoo z = null;
-    try{
-      FileReader fin= null;
+    try {
+      FileReader fin = null;
       JSONParser parser = new JSONParser();
 
-      fin= new FileReader("src/main/resource/map.json");
+      fin = new FileReader("src/main/resource/map.json");
       JSONObject obj = (JSONObject) parser.parse(fin);
 
-      JSONArray cellArray= (JSONArray) obj.get("CellList");
+      JSONArray cellArray = (JSONArray) obj.get("CellList");
       Iterator<JSONObject> allCell = cellArray.iterator();
 
       Cage cage;
       int abs;
       int ord;
       String type;
-      boolean entrance, exit;
+      boolean entrance;
+      boolean exit;
 
       z = new Zoo(mapLength,mapWidth);
 
-            while (allCell.hasNext()) {
-              JSONObject currCell = (JSONObject) allCell.next();
-              JSONObject lokasi = (JSONObject) currCell.get("Lokasi");
-              abs = new Long((long) lokasi.get("x")).intValue();
-              ord = new Long((long) lokasi.get("y")).intValue();
-              type = (String) currCell.get("type");
-              int cageID= new Long((long) currCell.get("Cage")).intValue();
+      while (allCell.hasNext()) {
+        JSONObject currCell = (JSONObject) allCell.next();
+        JSONObject lokasi = (JSONObject) currCell.get("Lokasi");
+        abs = new Long((long) lokasi.get("x")).intValue();
+        ord = new Long((long) lokasi.get("y")).intValue();
+        type = (String) currCell.get("type");
+        int cageId = new Long((long) currCell.get("Cage")).intValue();
 
-              Cell sel = null;
+        Cell sel = null;
 
-            if(type.equals("water")) {
-              sel = new Cell('w',abs,ord);
-            } else if(type.equals("land")) {
-              sel = new Cell('x',abs,ord);
-            } else if(type.equals("air")) {
-              sel = new Cell('o',abs,ord);
-            } else if(type.equals("road")) {
-              entrance = (boolean) currCell.get("entrance");
-                  exit = (boolean) currCell.get("exit");
-              if(entrance) {
-                sel = new Cell(' ',abs,ord);
-                z.addEntrance(sel);
-              } else if(exit){
-                sel = new Cell(' ',abs,ord);
-                z.addExit(sel);
-              } else {
-                sel = new Cell(' ',abs,ord);
-              }
-            } else if(type.equals("park")) {
-              sel = new Cell('*',abs,ord);
-            } else if(type.equals("restaurant")) {
-              sel = new Cell('R',abs,ord);
-            }
-            z.setCell(abs,ord,sel);
-            if(cageID>0) {
-                cage= cageHandler.getCage(cageID);
-                cage.addCell(sel.getType());
-              }
-              else {
-                cage=null;
-              }
-            z.getCell(abs, ord).setCage(cage);
-            }
-            fin.close();
+        if (type.equals("water")) {
+          sel = new Cell('w',abs,ord);
+        } else if (type.equals("land")) {
+          sel = new Cell('x',abs,ord);
+        } else if (type.equals("air")) {
+          sel = new Cell('o',abs,ord);
+        } else if (type.equals("road")) {
+          entrance = (boolean) currCell.get("entrance");
+          exit = (boolean) currCell.get("exit");
+          if (entrance) {
+            sel = new Cell(' ',abs,ord);
+            z.addEntrance(sel);
+          } else if (exit) {
+            sel = new Cell(' ',abs,ord);
+            z.addExit(sel);
+          } else {
+            sel = new Cell(' ',abs,ord);
+          }
+        } else if (type.equals("park")) {
+          sel = new Cell('*',abs,ord);
+        } else if (type.equals("restaurant")) {
+          sel = new Cell('R',abs,ord);
+        }
+        z.setCell(abs,ord,sel);
+        if (cageId > 0) {
+          cage = cageHandler.getCage(cageId);
+          cage.addCell(sel.getType());
+        } else {
+          cage = null;
+        }
+        z.getCell(abs, ord).setCage(cage);
+      }
+      fin.close();
+    } catch (FileNotFoundException e) {
+      e.printStackTrace();
+    } catch (IOException e) {
+      e.printStackTrace();
+    } catch (ParseException e) {
+      e.printStackTrace();
     }
-    catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    catch (IOException e) {
-            e.printStackTrace();
-        }
-    catch (ParseException e) {
-            e.printStackTrace();
-        }
     return z;
   }
 

@@ -1,9 +1,8 @@
 package cage;
 
-import animal.*;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.Assert.*;
-
+import animal.Animal;
 import org.junit.Test;
 
 public class CageTest {
@@ -17,7 +16,7 @@ public class CageTest {
     assertEquals(0, cage1.getNbAnimal());
     assertEquals(true, cage1.isAvailable());
   }
-  
+
   @Test
   public void testAddAnimal() {
     Cage cage1 = new Cage(1, 'x');
@@ -25,14 +24,14 @@ public class CageTest {
     cage1.addAnimal(animal);
     assertEquals(1, cage1.getNbAnimal());
   }
-  
+
   @Test
   public void testAddCell() {
     Cage cage1 = new Cage(1, 'X');
     cage1.addCell('X');
     assertEquals(1, cage1.getLuas());
   }
-  
+
   @Test
   public void testIsIsiJinak() {
     Cage cage1 = new Cage(1, 'x');

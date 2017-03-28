@@ -1,8 +1,9 @@
 package cell;
 
-import static org.junit.Assert.*;
-import cage.*;
-import animal.*;
+import static org.junit.Assert.assertEquals;
+
+import animal.Animal;
+import cage.Cage;
 import org.junit.Test;
 
 public class CellTest {
@@ -36,17 +37,17 @@ public class CellTest {
   @Test
   public void testGetCage() {
     Cell sel = new Cell('X',1,2);
-    Cage _cage = new Cage();
-    sel.setCage(_cage);
-    assertEquals(_cage,sel.getCage());
+    Cage cage = new Cage();
+    sel.setCage(cage);
+    assertEquals(cage,sel.getCage());
   }
 
   @Test
   public void testSetCage() {
     Cell sel = new Cell('X',1,2);
-    Cage _cage = new Cage();
-    sel.setCage(_cage);
-    assertEquals(_cage,sel.getCage());
+    Cage cage = new Cage();
+    sel.setCage(cage);
+    assertEquals(cage,sel.getCage());
   }
 
   @Test
