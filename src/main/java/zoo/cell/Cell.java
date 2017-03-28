@@ -132,14 +132,14 @@ public class Cell{
 	}
 
 	/**
-	 * method untuk menncetak isi dari cell ke layar
+	 * method untuk mencetak isi dari cell ke layar
 	 */
 	public void render() {
 		if(animal==null) {
 			System.out.print(type);
 		}
 		else {
-			System.out.print(animal);
+			animal.render();
 		}
 	}
 }

@@ -99,7 +99,7 @@ public class Animal{
 	 * Method render() berfungsi untuk menampilkan inisial dari object ke layar
 	 */
 	public void render() {
-		System.out.println("\033[1;31m" + inisial + ' '+ "\033[0m"); 
+		System.out.print(inisial); 
 	}
 	/**
 	 * @return Mengembalikan habitat dari object Animal

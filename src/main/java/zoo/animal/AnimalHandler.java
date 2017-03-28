@@ -2,6 +2,7 @@ package animal;
 import java.util.*;
 
 /**
+ * @author iftitakhul zakiah
  * @class AnimalHandler
  * kelas ini bertujuan untuk mengatur animal-animal pada virtual zoo secara keseluruhan
  */

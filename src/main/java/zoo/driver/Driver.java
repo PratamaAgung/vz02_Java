@@ -12,6 +12,35 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 public class Driver{
+	private int curr_x;
+	private int curr_y;
+	private boolean visited[][];
+	private int map_width;
+	private int map_length;
+	
+	public Driver() {
+		try {
+			FileReader fin= null;
+			JSONParser parser = new JSONParser();
+			
+			fin = new FileReader("src/main/resource/map.json"); 
+			JSONObject obj = (JSONObject) parser.parse(fin);
+			map_width = new Long((long) obj.get("ZooWidth")).intValue();
+			map_length = new Long((long) obj.get("ZooLength")).intValue();
+			fin.close();
+		}
+		catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } 
+		catch (IOException e) {
+            e.printStackTrace();
+        } 
+		catch (ParseException e) {
+            e.printStackTrace();
+        }
+		
+		visited = new boolean[map_length][map_width];
+	}
 	private Animal animalBuilder(int absis, int ordinat, int massa, String nama, boolean jinak, int id) {
 		Animal animalCreated = null;
 		if(nama.equals("Elang")) {
@@ -86,7 +115,7 @@ public class Driver{
 		return animalCreated;
 	}
 	
-	public AnimalHandler parseAnimal(){
+	public AnimalHandler parseAnimal(Zoo z){
 		AnimalHandler animalHandler= new AnimalHandler();
 		try{
 			FileReader fin= null;
@@ -114,7 +143,13 @@ public class Driver{
                 id = new Long((long) currAnimal.get("Id")).intValue();
                 jinak = (boolean) currAnimal.get("Jinak");
                 
-                animalHandler.addAnimal(animalBuilder(absis, ordinat, massa, nama, jinak, id));
+                Animal animal = animalBuilder(absis, ordinat, massa, nama, jinak, id);
+                animalHandler.addAnimal(animal);
+                z.getCell(absis, ordinat).setAnimal(animal);
+                if(z.getCell(absis, ordinat).getCage() != null)
+                	z.getCell(absis, ordinat).getCage().addAnimal(animal);
+                else 
+                	System.out.println(absis + " "+ ordinat);
             }
             fin.close();
 		} 
@@ -176,18 +211,14 @@ public class Driver{
 
 			JSONArray cellArray= (JSONArray) obj.get("CellList");
 			Iterator<JSONObject> allCell = cellArray.iterator();
-		
+			
 			Cage cage;
 			int absis;
 			int ordinat;
 			String type;
-			int panjang, lebar;
 			boolean entrance, exit;
 			
-
-			panjang = new Long((long) obj.get("ZooLength")).intValue();
-			lebar = new Long((long) obj.get("ZooWidth")).intValue();
-			z = new Zoo(panjang,lebar);
+			z = new Zoo(map_length,map_width);
 			
             while (allCell.hasNext()) {
             	JSONObject currCell = (JSONObject) allCell.next();
@@ -196,12 +227,7 @@ public class Driver{
             	ordinat = new Long((long) lokasi.get("y")).intValue();
             	type = (String) currCell.get("type");
             	int cageID= new Long((long) currCell.get("Cage")).intValue();
-            	if(cageID>0) {
-            		cage= cageHandler.getCage(cageID);
-            	}
-            	else {
-            		cage=null;
-            	}
+            	
             	Cell sel = null;
             	
         		if(type.equals("water")) {
@@ -227,7 +253,15 @@ public class Driver{
         		} else if(type.equals("restaurant")) {
         			sel = new Cell('R',absis,ordinat);
         		}
-        		z.setCell(absis,ordinat,sel);            	
+        		z.setCell(absis,ordinat,sel);
+        		if(cageID>0) {
+            		cage= cageHandler.getCage(cageID);
+            		cage.addCell(sel.getType());
+            	}
+            	else {
+            		cage=null;
+            	}
+        		z.getCell(absis, ordinat).setCage(cage);
             }
             fin.close();
 		} 
@@ -267,4 +301,144 @@ public class Driver{
 		}
 	}
 	
+	public void initPosition(Zoo z){
+		Random rand = new Random(System.currentTimeMillis());
+		int idx = rand.nextInt(z.nbEntrance());
+		curr_x = z.getEntrance(idx).getAbsis();
+		curr_y = z.getEntrance(idx).getOrdinat();
+		
+		for(int i = 0; i < z.getLength(); i++) {
+			for(int j = 0; j < z.getWidth(); j++) {
+				visited[i][j] = false;
+			}
+		}
+	}
+	
+	public int getPosX() {
+		return curr_x;
+	}
+	
+	public int getPosY() {
+		return curr_y;
+	}
+	
+	public void tourVirtualZoo(Zoo z) {
+		Random rand = new Random(System.currentTimeMillis());
+		boolean finish = false;
+		
+		System.out.println("==================================================");
+		System.out.println("                 VIRTUAL ZOO TOUR");
+		System.out.println("==================================================");
+		
+		while(!finish) {
+			int init = rand.nextInt(4);
+			boolean found = false;
+			int i = 0;
+			
+			while(!found && i < 4) {
+				if(init == 0){
+					if((curr_y-1 >= 0) && (z.getCell(curr_x, curr_y-1).getType() ==' ') && (!visited[curr_y-1][curr_x])) {
+						found = true;
+						visited[curr_y][curr_x] = true;
+						curr_y--;
+					}
+					else
+						init++;
+				}
+				else if(init == 1){
+					if((curr_x+1 < z.getWidth()) && (z.getCell(curr_x+1, curr_y).getType() ==' ') && (!visited[curr_y][curr_x+1])) {
+						found = true;
+						visited[curr_y][curr_x] = true;
+						curr_x++;
+					}
+					else
+						init++;
+				}
+				else if(init == 2){
+					if((curr_y+1 < z.getLength()) && (z.getCell(curr_x, curr_y+1).getType() ==' ') && (!visited[curr_y+1][curr_x])) {
+						found = true;
+						visited[curr_y][curr_x] = true;
+						curr_y++;
+					}
+					else
+						init++;
+				}
+				else if(init == 3){
+					if((curr_x-1 >= 0) && (z.getCell(curr_x-1, curr_y).getType() ==' ') && (!visited[curr_y][curr_x-1])) {
+						found=true;
+						visited[curr_y][curr_x]=true;
+						curr_x--;
+					}
+					else
+						init=0;
+				}
+				if(!found) {
+					i++;
+				}
+			}
+			if(!found) {
+				finish=true;
+				System.out.println("No next move found");
+			} else {
+				System.out.println("You're in: "+ curr_x + " " + curr_y);
+				if(curr_y-1 >= 0 && z.getCell(curr_x, curr_y-1).getAnimal() != null){
+					z.getCell(curr_x, curr_y-1).getAnimal().interact();
+				}
+				if(curr_x-1 >= 0 && z.getCell(curr_x-1, curr_y).getAnimal() != null){
+					z.getCell(curr_x-1, curr_y).getAnimal().interact();
+				}
+				if(curr_y+1 < z.getLength() && z.getCell(curr_x, curr_y+1).getAnimal() != null){
+					z.getCell(curr_x, curr_y+1).getAnimal().interact();
+				}
+				if(curr_x+1 < z.getWidth() && z.getCell(curr_x+1, curr_y).getAnimal() != null){
+					z.getCell(curr_x+1, curr_y).getAnimal().interact();
+				}
+				for(i = 0; i < z.nbExit(); i++){
+					if(z.getExit(i).getAbsis() == curr_x && z.getExit(i).getOrdinat() == curr_y){
+						finish = true;
+						System.out.println("You are in an exit!");
+					}
+				}
+			}
+		}
+	}
+	
+	public void moveAnimal(Zoo z, AnimalHandler ah) {
+		Random rand = new Random(System.currentTimeMillis());
+		for(int i=0; i<ah.nbAnimal(); i++){
+			int init = rand.nextInt(4);
+			int x = ah.getAnimal(i).getPosisiX();
+			int y = ah.getAnimal(i).getPosisiY();
+			int cage= z.getCell(x, y).getCage().getId();
+
+			if(init == 0){
+				if(y-1 >= 0 && z.getCell(x, y-1).getCage() != null && z.getCell(x, y-1).getCage().getId() == cage && z.getCell(x, y-1).getAnimal() == null) {
+					ah.getAnimal(i).setY(y-1);
+					z.getCell(x, y).setAnimal(null);
+					z.getCell(x, y-1).setAnimal(ah.getAnimal(i));
+				}
+			}
+			else if(init == 1){
+				if(x+1 < z.getWidth() && z.getCell(x+1, y).getCage() != null && z.getCell(x+1, y).getCage().getId() == cage && z.getCell(x+1, y).getAnimal() == null) {
+					ah.getAnimal(i).setX(x+1);
+					z.getCell(x, y).setAnimal(null);
+					z.getCell(x+1, y).setAnimal(ah.getAnimal(i));
+				}
+			}
+			else if(init == 2){
+				if(y+1 < z.getLength() && z.getCell(x, y+1).getCage() != null && z.getCell(x, y+1).getCage().getId() == cage && z.getCell(x, y+1).getAnimal() == null) {
+					ah.getAnimal(i).setY(y+1);
+					z.getCell(x, y).setAnimal(null);
+					z.getCell(x, y+1).setAnimal(ah.getAnimal(i));
+				}
+			}
+			else if(init == 3){
+				if(x-1 >= 0 && z.getCell(x-1, y).getCage() != null && z.getCell(x-1, y).getCage().getId() == cage && z.getCell(x-1, y).getAnimal() == null) {
+					ah.getAnimal(i).setX(x-1);
+					z.getCell(x, y).setAnimal(null);
+					z.getCell(x-1, y).setAnimal(ah.getAnimal(i));
+				}
+			}
+		} 
+	}
 }
